@@ -1,0 +1,56 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "input input input"
+    "total agregar agregar";
+    background-color: rgb(201, 212, 221);
+    border: 2px solid black;
+    margin-top: 2rem;
+} 
+
+.titulo {
+    grid-area: titulo;   
+    margin-top: 1rem;
+}
+
+hr {
+    border: 1px solid grey;
+}
+.agregartarea {
+    grid-area: input;
+
+}
+
+.agregartarea p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#tarea {
+    width: 70%;
+    margin-bottom: 2rem;
+    margin-top: 0%;
+    
+}
+
+.actividades {
+    grid-area: total;
+    
+}
+    
+.tabla {
+    grid-area: agregar;
+   
+    
+}
+
+.tabla td {
+    color: inherit;
+    padding: 0.5rem;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 1rem;
+}
+
